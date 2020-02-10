@@ -1,0 +1,248 @@
+.productsContent{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    overflow: auto;
+    background-color: rgba(255,177,1, .25);
+
+    p {
+        font-size: 20px;
+    }
+    h1 {
+        border-bottom: 2px solid black;
+    }
+    .productImage{
+        height: 50%;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        overflow: auto;
+        margin-bottom: 30px;
+        padding: 250px 0;
+    }
+    .scrunchImgOne {
+        background-image: url(../images/beeScrunchie.jpeg);
+    }
+    .scrunchImgTwo {
+        background-image: url(../images/roseScrunchie.jpeg);
+    }
+    .scrunchImgThree {
+        background-image: url(../images/sunflowerScrunchie.jpeg);
+    }
+    .scrunchImgFour {
+        background-image: url(../images/dogScrunchie.jpeg);
+    }
+    .jewleryImgOne {
+        background-image: url(../images/pigEarings.jpeg);
+    }
+    .jewleryImgTwo {
+        background-image: url(../images/moonEarings.jpeg);
+    }
+    .jewleryImgThree {
+        background-image: url(../images/beeEarings.jpeg);
+    }
+    .jewleryImgFour {
+        background-image: url(../images/blueEarings.jpeg);
+    }
+    .stickersImgOne{
+        background-image: url(../images/eggSticker.jpeg);
+    }
+    .stickersImgTwo{
+        background-image: url(../images/moonSticker.jpeg);
+    }
+    .stickersImgThree{
+        background-image: url(../images/okSticker.jpeg);
+    }
+    .stickersImgFour{
+        background-image: url(../images/scrunchieSticker.jpeg);
+    }
+    .logoImgOne{
+        background-image: url(../images/logoOne.jpeg);
+    }
+    .logoImgTwo{
+        background-image: url(../images/logo2.jpeg);
+    }
+    .logoImgThree{
+        background-image: url(../images/logo3.jpeg);
+    }
+    .logoImgFour{
+        background-image: url(../images/logo4.jpeg);
+    }
+    .contentOne{
+        float: left;
+        height: 90%;
+        width: 25%;
+        padding: 50px;
+        border-right: 1px solid black;
+    }
+    .contentTwo{
+        float: left;
+        height: 90%;
+        width: 25%;
+        padding: 50px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .contentThree{
+        float: left;
+        height: 90%;
+        width: 25%;
+        padding: 50px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .contentFour{
+        float: left;
+        height: 90%;
+        width: 25%;
+        padding: 50px;
+        border-left: 1px solid black;
+    } 
+    @media only screen and (max-width:1200px) {
+        .contentOne, .contentTwo, .contentThree, .contentFour {
+            width: 50%;
+            height: 40%;
+        }
+        .contentOne {
+            border-bottom: 1px solid black;
+        }
+        .contentTwo {
+            border-bottom: 1px solid black;
+            border-right: none;
+        }
+        .contentThree{
+            border-top: 1px solid black;
+            border-left: none;
+        }
+        .contentFour {
+            border-top: 1px solid black;
+        }
+        .scrunchImgOne{
+            background-position-y: 50%;
+        }
+        .scrunchImgTwo{
+            background-position-y: 70%;
+        }
+        .scrunchImgThree{
+            background-position-y: 50%;
+        }
+        .scrunchImgFour{
+            background-position-y: 75%;
+        }
+        .jewleryImgOne{
+            background-position-y: 75%;
+        }
+        .jewleryImgTwo{
+            background-position-y: 70%;
+        }
+        .jewleryImgThree{
+            background-position-y: 60%;
+        }
+        .jewleryImgFour{
+            background-position-y: 75%;
+        }
+        .stickersImgOne{
+            background-position-y: 50%;
+        }
+        .stickersImgTwo{
+            background-position-y: 40%;
+        }
+        .stickersImgThree{
+            background-position-y: 50%;
+        }
+        .stickersImgFour{
+            background-position-y: 50%;
+        }
+        .logoImgOne{
+            background-position-y: 50%;
+        }
+        .logoImgTwo{
+            background-position-y: 50%;
+        }
+        .logoImgThree{
+            background-position-y: 50%;
+        }
+        .logoImgFour{
+            background-position-y: 50%;
+        }
+    }
+    @media only screen and (max-width:720px) {
+        .contentOne, .contentTwo, .contentThree, .contentFour {
+            width: 100%;
+            height: 25%;
+            h1 {
+                border-bottom: none;
+            }
+        }
+        .contentOne {
+            border-right: none;
+        }
+        .contentTwo {
+            border-top: 1px solid black;
+            border-left: none;
+        }
+        .contentThree{
+            border-bottom: 1px solid black;
+            border-right: none;
+        }
+        .contentFour{
+            border-left: none;
+        }
+        p {
+            display: none;
+        }
+        .scrunchImgOne{
+            display: none;
+        }
+        .scrunchImgTwo{
+            display: none;
+        }
+        .scrunchImgThree{
+            display: none;
+        }
+        .scrunchImgFour{
+            display: none;
+        }
+        .jewleryImgOne{
+            display: none;
+        }
+        .jewleryImgTwo{
+            display: none;
+        }
+        .jewleryImgThree{
+            display: none;
+        }
+        .jewleryImgFour{
+            display: none;
+        }
+        .stickersImgOne{
+            display: none;
+        }
+        .stickersImgTwo{
+            display: none;
+        }
+        .stickersImgThree{
+            display: none;
+        }
+        .stickersImgFour{
+            display: none;
+        }
+        .logoImgOne{
+            display: none;
+        }
+        .logoImgTwo{
+            display: none;
+        }
+        .logoImgThree{
+            display: none;
+        }
+        .logoImgFour{
+            display: none;
+        }
+    }
+}
+
+.darker{
+    background-color: rgba(255,177,1, .5);
+}
